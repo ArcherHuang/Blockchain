@@ -34,7 +34,7 @@
         * 計算完的結果為 QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
           * Qm : SHA-256 演算法且 32 bytes 長
        * 程式碼
-       ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_20___2_36_50-1542695903747.png)
+       ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_20___2_44_25-1542696310515.png)
 
 * Base58
   * 特性
