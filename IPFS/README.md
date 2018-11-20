@@ -17,6 +17,8 @@
     
   https://dist.ipfs.io/#go-ipfs
 
+---
+
 * 操作
   * 初始化
     * ipfs init
