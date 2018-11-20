@@ -1,4 +1,4 @@
-# IPFS
+# IPFS ( InterPlanetary File System )
 * 安裝
   * 下載
     * MacOS 
