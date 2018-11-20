@@ -29,6 +29,6 @@
     * ipfs add 檔案名稱 
   * 取得檔案內容
     * ipfs cat 檔案的 Hash
-  * 連上公有 IPFS
+  * 同步節點
     * ipfs daemon
-    * http://localhost:5001
+    * https://ipfs.io/ipfs/檔案的 Hash
