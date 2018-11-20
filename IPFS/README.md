@@ -25,3 +25,5 @@
     * ipfs init
   * 顯示 IPFS Node 資訊
     * ipfs id
+  * 將檔案放進 IPFS 系統
+    * ipfs add 檔案名稱 
