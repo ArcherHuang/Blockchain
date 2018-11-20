@@ -27,6 +27,8 @@
     * ipfs id
   * 將檔案放進 IPFS 系統
     * ipfs add 檔案名稱 
+  * 添加目錄中的檔案到 IPFS
+    * ipfs add -r 目錄名稱
   * 取得檔案內容
     * ipfs cat 檔案的 Hash
   * 同步節點
