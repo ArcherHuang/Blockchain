@@ -10,7 +10,10 @@
   * 其演算法為 SHA-256，並預設使用 Base58 進行編碼
   * 型式
     * QmY2xd7i7DBWoAzmndBpnEwjjmQnpwUardEBnFK63fEyqs
-    
+      * Qm : SHA-256 演算法且 32 bytes 長
+      
+* distributed hash table (DHT)
+
 * 安裝
   * 下載
     * MacOS 
