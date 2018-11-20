@@ -22,3 +22,5 @@
 * 操作
   * 初始化
     * ipfs init
+  * 顯示 IPFS Node 資訊
+    * ipfs id
