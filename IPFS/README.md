@@ -16,9 +16,9 @@
   * 其演算法為 SHA-256，並預設使用 Base58 進行編碼
   * 型式
     * 檔案內容
-      * test1120
+      * Hello world
     * hash ( 長度為 46 )
-      * QmY2xd7i7DBWoAzmndBpnEwjjmQnpwUardEBnFK63fEyqs
+      * QmePw8gVcBMb8x6kAep6aMBAX23hCSk6iZW3i9VKkiFhu1
         * Qm : SHA-256 演算法且 32 bytes 長
 
 * Base58
