@@ -26,6 +26,9 @@
           * SHA2-256 的编碼為 0x12
           * hash 長度為 32 bytes（ 十六進制為 0x20 ）
           * hello world 的 hash 為 46d44814b9c5af141c3aaab7c05dc5e844ead5f91f12858b021eba45768b4c0e
+            * file gets chunked into 256KiB pieces
+            * each chunk goes into a DAG node inside a Unixfs protobuf https://github.com/ipfs/js-ipfs-unixfs
+            * a dag is created with links to all the chunks.
         * 計算完的結果為 QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
           * Qm : SHA-256 演算法且 32 bytes 長
 
