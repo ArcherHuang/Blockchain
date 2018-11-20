@@ -8,6 +8,8 @@
   * 解壓縮
     * MacOS
       * tar -zxvf go-ipfs_v0.4.18_darwin-amd64.tar.gz
+    * Linux
+      * tar -zxvf go-ipfs_v0.4.18_linux-amd64.tar.gz
   * 切換工作路徑
     * cd go-ipfs
   * 安裝 IPFS
