@@ -39,4 +39,6 @@
     * ipfs daemon
     * https://ipfs.io/ipfs/檔案的 Hash
 
+---
+
 * 建立私有 IPFS
