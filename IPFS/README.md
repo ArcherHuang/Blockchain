@@ -20,7 +20,7 @@
 
 ---
 
-* 操作
+* 基本操作
   * 初始化
     * ipfs init
   * 顯示 IPFS Node 資訊
@@ -34,3 +34,5 @@
   * 同步節點
     * ipfs daemon
     * https://ipfs.io/ipfs/檔案的 Hash
+
+* 建立私有 IPFS
