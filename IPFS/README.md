@@ -5,12 +5,12 @@
   * 透過 IPFS 軟體能提供檔案給 IPFS 網路上的其他電腦，亦可從 IPFS 網路上的其他電腦取得檔案
 
 * IPFS address
-  * 型式
-    * QmY2xd7i7DBWoAzmndBpnEwjjmQnpwUardEBnFK63fEyqs
   * 每個被加入到 IPFS 系統中的檔案都會得到一個獨一無二的 address，其 address 來自於檔案內容的 hash
   * IPFS 的 address 是由 multihash 所組成，其 multihash 共分成 3 個部份，第一個 byte 亦指所使用的 hash 演算法，第二個 byte 亦指 hash 的長度，剩餘部份為 hash function 的輸出結果
   * 其演算法為 SHA-256，並預設使用 Base58 進行編碼
-  
+  * 型式
+    * QmY2xd7i7DBWoAzmndBpnEwjjmQnpwUardEBnFK63fEyqs
+    
 * 安裝
   * 下載
     * MacOS 
