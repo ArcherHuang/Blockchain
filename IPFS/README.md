@@ -36,6 +36,8 @@
        * 程式碼
        ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_20___2_44_25-1542696310515.png)
 
+---
+
 * Base58
   * 特性
     * Bitcoin 用來產生錢包 address 的編碼方式
@@ -47,6 +49,12 @@
 * SHA-256
 
 * Distributed Hash Table (DHT)
+
+* Merkle Trees
+
+* Directed Acyclic Graph (DAG)
+
+---
 
 * 安裝
   * 下載
