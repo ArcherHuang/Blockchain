@@ -11,7 +11,13 @@
   * 型式
     * QmY2xd7i7DBWoAzmndBpnEwjjmQnpwUardEBnFK63fEyqs
       * Qm : SHA-256 演算法且 32 bytes 長
-      
+
+* Base58
+  * 特性
+    * Bitcoin 用來產生錢包 address 的編碼方式
+    * 不使用易於混淆文字
+      * 例如: 數字【 0 】、字母大寫【 O 】、字母大寫【 I 】、字母小寫【 l 】、【 + 】、【 / 】
+    
 * Distributed Hash Table (DHT)
 
 * 安裝
