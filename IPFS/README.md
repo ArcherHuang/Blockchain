@@ -17,9 +17,9 @@
   * base58(<hash 演算法><hash 的長度><hash function 的輸出結果>)
   * 型式
     * 檔案內容
-      * Hello world
+      * hello world
     * hash ( 長度為 46 )
-      * QmePw8gVcBMb8x6kAep6aMBAX23hCSk6iZW3i9VKkiFhu1
+      * QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
         * Qm : SHA-256 演算法且 32 bytes 長
 
 * Base58
