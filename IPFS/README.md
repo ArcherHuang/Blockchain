@@ -103,7 +103,7 @@
     * ipfs cat 檔案的 Hash
   * 同步節點
     * ipfs daemon
-    * https://ipfs.io/ipfs/檔案的 Hash
+    * https://ipfs.io/ipfs/檔案的 IPFS hash
     * https://gateway.ipfs.io/ipfs/QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
 
 ---
