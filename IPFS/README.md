@@ -67,7 +67,9 @@
     * MacOS 
       * wget https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_darwin-amd64.tar.gz
     * Linux
-      * wget https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_linux-amd64.tar.gz    
+      * wget https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_linux-amd64.tar.gz  
+    * Windows
+      * https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_windows-amd64.zip
   * 解壓縮
     * MacOS
       * tar -zxvf go-ipfs_v0.4.18_darwin-amd64.tar.gz
