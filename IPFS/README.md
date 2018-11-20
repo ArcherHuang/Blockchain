@@ -14,8 +14,9 @@
     * cd go-ipfs
   * 安裝 IPFS
     * sudo ./install.sh
-    
-  https://dist.ipfs.io/#go-ipfs
+   
+  * 【 官網 】 
+    * https://dist.ipfs.io/#go-ipfs
 
 ---
 
