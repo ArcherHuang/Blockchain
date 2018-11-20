@@ -1,5 +1,11 @@
-# IPFS ( InterPlanetary File System )
+# IPFS
 
+* 中文
+  * 星際檔案系統
+  
+* 英文
+  * InterPlanetary File System
+  
 * 特性
   * P2P ( peer-to-peer ) 分散式檔案系統
   * 透過 IPFS 軟體能提供檔案給 IPFS 網路上的其他電腦，亦可從 IPFS 網路上的其他電腦取得檔案
