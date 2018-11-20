@@ -12,7 +12,7 @@
     * QmY2xd7i7DBWoAzmndBpnEwjjmQnpwUardEBnFK63fEyqs
       * Qm : SHA-256 演算法且 32 bytes 長
       
-* distributed hash table (DHT)
+* Distributed Hash Table (DHT)
 
 * 安裝
   * 下載
