@@ -11,7 +11,7 @@
   * 型式
     * 檔案內容
       * test1120
-    * hash
+    * hash ( 長度為 46 )
       * QmY2xd7i7DBWoAzmndBpnEwjjmQnpwUardEBnFK63fEyqs
         * Qm : SHA-256 演算法且 32 bytes 長
 
