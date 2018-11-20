@@ -9,8 +9,11 @@
   * IPFS 的 address 是由 multihash 所組成，其 multihash 共分成 3 個部份，第一個 byte 亦指所使用的 hash 演算法，第二個 byte 亦指 hash 的長度，剩餘部份為 hash function 的輸出結果
   * 其演算法為 SHA-256，並預設使用 Base58 進行編碼
   * 型式
-    * QmY2xd7i7DBWoAzmndBpnEwjjmQnpwUardEBnFK63fEyqs
-      * Qm : SHA-256 演算法且 32 bytes 長
+    * 檔案內容
+      * test1120
+    * hash
+      * QmY2xd7i7DBWoAzmndBpnEwjjmQnpwUardEBnFK63fEyqs
+        * Qm : SHA-256 演算法且 32 bytes 長
 
 * Base58
   * 特性
