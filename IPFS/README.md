@@ -17,6 +17,9 @@
   * 型式
     * 檔案內容
       * hello world
+        * echo 'hello world' > test-file.txt
+        * ipfs add test-file.txt
+          * added QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o test-file.txt
     * hash ( 長度為 46 )
       * base58(<hash 演算法><hash 的長度><hash function 的輸出結果>)
         * base58(122046d44814b9c5af141c3aaab7c05dc5e844ead5f91f12858b021eba45768b4c0e)
