@@ -1,4 +1,8 @@
 # IPFS ( InterPlanetary File System )
+
+* 特性
+  * P2P 分散式檔案系統
+
 * 安裝
   * 下載
     * MacOS 
