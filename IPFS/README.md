@@ -1,10 +1,10 @@
 # IPFS
 
-* 中文
-  * 星際檔案系統
-  
 * 英文
   * InterPlanetary File System
+  
+* 中文
+  * 星際檔案系統
   
 * 特性
   * P2P ( peer-to-peer ) 分散式檔案系統
