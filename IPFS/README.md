@@ -64,21 +64,23 @@
 
 * 安裝
   * 下載
-    * MacOS 
+    * macOS 
       * wget https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_darwin-amd64.tar.gz
     * Linux
       * wget https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_linux-amd64.tar.gz  
     * Windows
       * https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_windows-amd64.zip
   * 解壓縮
-    * MacOS
+    * macOS
       * tar -zxvf go-ipfs_v0.4.18_darwin-amd64.tar.gz
     * Linux
       * tar -zxvf go-ipfs_v0.4.18_linux-amd64.tar.gz
   * 切換工作路徑
-    * cd go-ipfs
+    * macOS & Linux
+      * cd go-ipfs
   * 安裝 IPFS
-    * sudo ./install.sh
+    * macOS & Linux
+      * sudo ./install.sh
    
   * 【 官網 】 
     * https://dist.ipfs.io/#go-ipfs
