@@ -49,13 +49,17 @@
       * 字元集為 9 個數字、24 個大寫字母、25 個小寫字母
 
 * SHA-256
-
+  * 特性
+  
 * Distributed Hash Table (DHT)
-
+  * 特性
+  
 * Merkle Trees
-
+  * 特性
+  
 * Directed Acyclic Graph (DAG)
-
+  * 特性
+  
 ---
 
 * 安裝
