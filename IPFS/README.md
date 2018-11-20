@@ -6,6 +6,7 @@
 
 * IPFS address
   * 每個被加入到 IPFS 系統中的檔案都會得到一個獨一無二的 address，其 address 來自於檔案內容的 hash
+  * IPFS 的 address 是由 multihash 所組成，其 multihash 共分成 3 個部份，第一個 byte 亦指所使用的 hash 演算法，第二個 byte 亦指 hash 的長度，剩餘部份為 hash function 的輸出結果
   
 * 安裝
   * 下載
