@@ -14,13 +14,17 @@
   * 每個被加入到 IPFS 系統中的檔案都會得到一個獨一無二的 address，其 address 來自於檔案內容的 hash
   * IPFS 的 address 是由 multihash 所組成，其 multihash 共分成 3 個部份，第一部份亦指所使用的 hash 演算法，第二部份亦指 hash 的長度，第三部份為 hash function 的輸出結果
   * 其演算法為 SHA-256，並預設使用 Base58 進行編碼
-  * base58(<hash 演算法><hash 的長度><hash function 的輸出結果>)
   * 型式
     * 檔案內容
       * hello world
     * hash ( 長度為 46 )
-      * QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
-        * Qm : SHA-256 演算法且 32 bytes 長
+      * base58(<hash 演算法><hash 的長度><hash function 的輸出結果>)
+        * base58(122046d44814b9c5af141c3aaab7c05dc5e844ead5f91f12858b021eba45768b4c0e)
+          * SHA2-256 的编碼為 0x12
+          * hash 長度為 32 bytes（ 十六進制為 0x20 ）
+          * hello world 的 hash 為 46d44814b9c5af141c3aaab7c05dc5e844ead5f91f12858b021eba45768b4c0e
+        * 計算完的結果為 QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
+          * Qm : SHA-256 演算法且 32 bytes 長
 
 * Base58
   * 特性
