@@ -29,3 +29,5 @@
     * ipfs add 檔案名稱 
   * 取得檔案內容
     * ipfs cat 檔案的 Hash
+  * 連上公有 IPFS
+    * ipfs daemon
