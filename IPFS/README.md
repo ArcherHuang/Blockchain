@@ -31,8 +31,8 @@
               * file gets chunked into 256KiB pieces
               * each chunk goes into a DAG node inside a Unixfs protobuf https://github.com/ipfs/js-ipfs-unixfs
               * a dag is created with links to all the chunks.
-          * 指令
-            * ipfs block get QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o  | sha256sum
+            * 指令
+              * ipfs block get QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o  | sha256sum
         * 計算完的結果為 QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
           * Qm 代表使用 SHA-256 演算法且 32 bytes 長
        * 程式碼
