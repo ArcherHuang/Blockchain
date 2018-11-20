@@ -31,3 +31,4 @@
     * ipfs cat 檔案的 Hash
   * 連上公有 IPFS
     * ipfs daemon
+    * http://localhost:5001
