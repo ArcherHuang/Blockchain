@@ -57,12 +57,18 @@
       * 換句話說 Base58 是由不包括（ 0、O、l、I ）的大小寫字母和數字所组成的
       * 字元集為 9 個數字、24 個大寫字母、25 個小寫字母
 
+---
+
 * SHA-256
   * 特性
-  
+
+---
+
 * Distributed Hash Table (DHT)
   * 特性
-  
+
+---
+
 * Merkle Trees
   * 特性
     * 也被稱為 Hash Tree
@@ -70,7 +76,9 @@
     * 非樹葉節點的數值是經由下層節點計算出 Hash 而得的。
     
   ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_21___9_13_23-1542762841787.png)
-  
+
+---
+
 * Directed Acyclic Graph (DAG)
   * 特性
   
