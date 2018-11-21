@@ -119,7 +119,20 @@
     * https://gateway.ipfs.io/ipfs/QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
   * 讓目錄長期存在 ( IPFS 會自動做 Garbage Collection 以防止 Local 檔案佔用太多空間 )
     * ipfs pin add -r 
-
+  * 將節點域名空間建立一個相對應的 IPFS hash
+    * ipfs name publish 
+  *
+    * ipfs files ls
+  *
+    * ipfs files cp  
+  *
+    * ipfs files read 
+  *
+    * ipfs files rm  
+  *
+    * ipfs files rm -r 
+  *
+    * ipfs files help
 ---
 
 * 建立私有 IPFS
