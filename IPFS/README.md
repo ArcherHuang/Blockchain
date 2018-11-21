@@ -59,6 +59,8 @@
   
 * Merkle Trees
   * 特性
+    * 樹葉節點的數值為資料
+    * 非樹葉節點的數值是經由下層節點計算出 Hash 而得的。
   
 * Directed Acyclic Graph (DAG)
   * 特性
