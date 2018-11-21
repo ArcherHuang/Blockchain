@@ -117,6 +117,8 @@
     * http://127.0.0.1:5001/webui
     * https://ipfs.io/ipfs/檔案的 IPFS hash
     * https://gateway.ipfs.io/ipfs/QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
+  * 讓目錄長期存在 ( IPFS 會自動做 Garbage Collection 以防止 Local 檔案佔用太多空間 )
+    * ipfs pin add -r 
 
 ---
 
