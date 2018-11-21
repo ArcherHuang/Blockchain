@@ -104,6 +104,8 @@
 * 基本操作
   * 初始化
     * ipfs init
+  *
+    * ipfs help
   * 顯示 IPFS Node 資訊
     * ipfs id
   * 將檔案放進 IPFS 系統
