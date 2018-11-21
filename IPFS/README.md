@@ -59,6 +59,7 @@
   
 * Merkle Trees
   * 特性
+    * 也被稱為 Hash Tree
     * 樹葉節點存放資料節點的 Hash 值
     * 非樹葉節點的數值是經由下層節點計算出 Hash 而得的。
     
