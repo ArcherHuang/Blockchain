@@ -138,6 +138,11 @@
     * ipfs files rm -r 
   *
     * ipfs files help
+
+---
+
+* Centralized、Decentralized、Distributed
+
 ---
 
 * 建立私有 IPFS
