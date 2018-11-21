@@ -15,7 +15,7 @@
 
 * 結構
   * 索引結構是 DHT（ Distributed Hash Table, 分散式雜湊表 ）
-  * 資料結構方面則是 Merkle DAG（ Merkle Directed Acyclic Graph, 有向無環圖 ）
+  * 資料結構是 Merkle DAG（ Merkle Directed Acyclic Graph, 有向無環圖 ）
 
 * IPFS address
   * 每個被加入到 IPFS 系統中的檔案都會得到一個獨一無二的 address，其 address 來自於檔案內容的 hash
