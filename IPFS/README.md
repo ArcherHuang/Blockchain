@@ -63,7 +63,7 @@
     * 樹葉節點存放資料節點的 Hash 值
     * 非樹葉節點的數值是經由下層節點計算出 Hash 而得的。
     
-  ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_21___8_53_53-1542761675793.png)
+  ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_21___9_13_23-1542762841787.png)
   
 * Directed Acyclic Graph (DAG)
   * 特性
