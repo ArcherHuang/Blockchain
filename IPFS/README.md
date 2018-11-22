@@ -146,11 +146,13 @@
     * ipfs files rm -r 
   *
     * ipfs files help
+  * Read the content out of IPFS
+    * ipfs cat QmZtmD2qt6fJot32nabSP3CUjicnypEBz7bHVDhPQt9aAy
   *
     * echo "version 1 of my text" | ipfs add
   *
     * cat mytextfile.txt | ipfs add
-  *
+  * Pipe content from IPFS into a File
     * ipfs cat QmTudJSaoKxtbEnTddJ9vh8hbN84ZLVvD5pNpUaSbxwGoa > mytextfile.txt
 
 ---
