@@ -165,10 +165,6 @@
 
 ---
 
-* 建立私有 IPFS
-
----
-
 * ShapeShift
 
 ---
@@ -182,3 +178,57 @@
 ---
 
 * HTTP Live Streaming
+
+---
+
+* 建立私有 IPFS
+
+ * 安裝 IPFS
+   * mkdir ipfs && cd ipfs
+   * wget https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_linux-amd64.tar.gz
+   * tar -zxvf go-ipfs_v0.4.18_linux-amd64.tar.gz
+   * cd go-ipfs
+   * sudo ./install.sh
+   * ipfs init
+   
+ * 安裝 Go  
+   * sudo apt-get update
+   * curl -O https://storage.googleapis.com/golang/go1.9.3.linux-amd64.tar.gz
+   * tar -xvf go1.9.3.linux-amd64.tar.gz
+   * sudo chown -R root:root ./go
+   * sudo mv go /usr/local
+   * vi ~/.profile
+     * [i]
+     * export GOPATH=$HOME/go
+     * export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+     * [esc]
+     * :wq!
+   * source ~/.profile
+   
+ * 產生私鑰
+   * go get github.com/Kubuxu/go-ipfs-swarm-key-gen/ipfs-swarm-key-gen
+   * ipfs-swarm-key-gen > ~/.ipfs/swarm.key
+   
+ * 將私鑰送到 Node-2
+   * scp -i Go.pem ~/.ipfs/swarm.key ubuntu@34.205.157.212:~/.ipfs/
+  
+ * 清空預設自動連接到main network上的peer
+   * [Node-1] 
+     * ipfs bootstrap rm --all
+     * ipfs bootstrap add /ip4/[Node-1-IP]/tcp/4001/ipfs/[Node-1-ID]
+     * export LIBP2P_FORCE_PNET=1
+     * ipfs daemon
+   * [Node-2]   
+     * ipfs bootstrap rm --all
+     * ipfs daemon
+ * Check
+   * [Node-1] 
+     * ipfs swarm peers
+   * [Node-2]      
+     * ipfs swarm peers
+ * 測試
+   * [Node-1] 產生 2g 大檔
+     * time sh -c 'dd if=/dev/zero iflag=count_bytes count=2G bs=1M of=large; sync'
+     * ipfs add large
+   * [Node-2]   
+     * ipfs get large's Hash
