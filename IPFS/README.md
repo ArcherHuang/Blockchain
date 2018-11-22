@@ -150,6 +150,8 @@
     * echo "version 1 of my text" | ipfs add
   *
     * cat mytextfile.txt | ipfs add
+  *
+    * ipfs cat QmTudJSaoKxtbEnTddJ9vh8hbN84ZLVvD5pNpUaSbxwGoa > mytextfile.txt
 
 ---
 
