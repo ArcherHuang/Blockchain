@@ -187,12 +187,18 @@
   ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_22___4_43_02-1542876201203.png)
 
   * 安裝 IPFS
-    * mkdir ipfs && cd ipfs
-    * wget https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_linux-amd64.tar.gz
-    * tar -zxvf go-ipfs_v0.4.18_linux-amd64.tar.gz
-    * cd go-ipfs
-    * sudo ./install.sh
-    * ipfs init
+    * 建立名為 ipfs 資料夾並切換路徑到 ipfs 資料夾中
+      * mkdir ipfs && cd ipfs
+    * 下載 IPFS 安裝檔
+      * wget https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_linux-amd64.tar.gz
+    * 解壓縮
+      * tar -zxvf go-ipfs_v0.4.18_linux-amd64.tar.gz
+    * 切換路徑到 go-ipfs
+      * cd go-ipfs
+    * 執行安裝的 Script
+      * sudo ./install.sh
+    * ipfs 初始化
+      * ipfs init
    
   * 安裝 Go  
     * sudo apt-get update
