@@ -1,14 +1,16 @@
 ## 學習目標
-* Docker 運作流程
-* Docker 指令
-* Dockerfile 撰寫
-* Python Flask 的 CRUD 撰寫
-* Postman 使用
+* IPFS 概念
+* IPFS 指令
+* 建立私有 IPFS
 
 ## Contents
-- [Docker Flask Sample 說明](#docker-flask-sample)
+- [IPFS](#ipfs)
+- [安裝](#ipfs)
+- [基本操作](#ipfs)
+- [建立私有 IPFS](#ipfs)
 
-# IPFS
+## IPFS
+[Top](#contents)
 
 * 英文
   * **I**nter**P**lanetary **F**ile **S**ystem
@@ -94,7 +96,7 @@
   
 ---
 
-* 安裝
+## 安裝
   * 下載
     * macOS 
       * wget https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_darwin-amd64.tar.gz
@@ -119,7 +121,7 @@
 
 ---
 
-* 基本操作
+## 基本操作
   * 初始化
     * ipfs init
   *
@@ -191,7 +193,7 @@
 
 ---
 
-* 建立私有 IPFS
+## 建立私有 IPFS
   * 示意圖
  
   ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_22___4_43_02-1542876201203.png)
