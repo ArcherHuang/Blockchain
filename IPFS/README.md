@@ -5,9 +5,9 @@
 
 ## Contents
 - [IPFS](#ipfs)
-- [安裝](#ipfs)
-- [基本操作](#ipfs)
-- [建立私有 IPFS](#ipfs)
+- [安裝](#安裝)
+- [基本操作](#基本操作)
+- [建立私有 IPFS](#建立私有-ipfs)
 
 ## IPFS
 [Top](#contents)
@@ -97,6 +97,8 @@
 ---
 
 ## 安裝
+[Top](#contents)
+
   * 下載
     * macOS 
       * wget https://dist.ipfs.io/go-ipfs/v0.4.18/go-ipfs_v0.4.18_darwin-amd64.tar.gz
@@ -122,6 +124,8 @@
 ---
 
 ## 基本操作
+[Top](#contents)
+
   * 初始化
     * ipfs init
   *
@@ -194,6 +198,8 @@
 ---
 
 ## 建立私有 IPFS
+[Top](#contents)
+
   * 示意圖
  
   ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_22___4_43_02-1542876201203.png)
