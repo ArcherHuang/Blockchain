@@ -205,7 +205,6 @@
   ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_22___4_43_02-1542876201203.png)
 
   * 建立 2 台 AWS EC2 的 Ubuntu Node
-    * 
     
   * 安裝 IPFS
     * 建立名為 ipfs 資料夾並切換路徑到 ipfs 資料夾中
