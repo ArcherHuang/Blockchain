@@ -4,7 +4,7 @@
 * 建立私有 IPFS
 
 ## Contents
-- [IPFS](#ipfs)
+- [IPFS 概念](#ipfs)
 - [安裝](#安裝)
 - [基本操作](#基本操作)
 - [建立私有 IPFS](#建立私有-ipfs)
