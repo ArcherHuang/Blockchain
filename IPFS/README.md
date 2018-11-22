@@ -117,6 +117,7 @@
   * 顯示 IPFS Node 資訊
     * ipfs id
   * 將檔案放進 IPFS 系統
+    * echo "test 1122" > mytextfile.txt
     * ipfs add 檔案名稱 
   * 添加目錄中的檔案到 IPFS
     * ipfs add -r 目錄名稱
