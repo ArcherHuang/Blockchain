@@ -146,6 +146,10 @@
     * ipfs files rm -r 
   *
     * ipfs files help
+  *
+    * echo "version 1 of my text" | ipfs add
+  *
+    * cat mytextfile.txt | ipfs add
 
 ---
 
