@@ -157,7 +157,8 @@
     * ipfs cat QmTudJSaoKxtbEnTddJ9vh8hbN84ZLVvD5pNpUaSbxwGoa > mytextfile.txt
   * Get File from IPFS
     * ipfs get QmPe4Hp19dDPFDf5TABYethfxd5PtoSEgbNzJuWJcSnT6S
-
+  *
+    * ipfs id
 ---
 
 * Centralized、Decentralized、Distributed
