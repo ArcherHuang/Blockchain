@@ -177,6 +177,8 @@
     * ipfs id
   *
     * ipfs version
+  *
+    * ipfs config show
 ---
 
 * Centralized、Decentralized、Distributed
