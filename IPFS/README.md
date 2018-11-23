@@ -265,3 +265,25 @@
       * ipfs add large
     * [Node-2]   
       * ipfs get large's Hash
+
+  ---
+  [Node-1][Node-2]
+ipfs init
+ipfs bootstrap rm --all
+ipfs config show
+"API": "/ip4/127.0.0.1/tcp/5001",
+"Gateway": "/ip4/127.0.0.1/tcp/8080"
+
+ipfs config Addresses.API /ip4/0.0.0.0/tcp/5001
+ipfs config Addresses.Gateway /ip4/0.0.0.0/tcp/8080
+
+export LIBP2P_FORCE_PNET=1
+systemctl restart ipfsd
+systemctl status ipfsd
+
+ipfs daemon &
+ipfs id
+
+[Node-2] 
+ipfs bootstrap add /ip4/54.84.2.23/tcp/4001/ipfs/QmVXSmGCnojp24srTG7tSCce8yYhnS3s7C5sMWdrMSBhM8
+ipfs swarm peers
