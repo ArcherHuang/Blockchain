@@ -260,7 +260,8 @@
       * ipfs config show
       * ipfs config Addresses.API /ip4/0.0.0.0/tcp/5001
       * ipfs config Addresses.Gateway /ip4/0.0.0.0/tcp/8080
-      * export LIBP2P_FORCE_PNET=1
+      * 設定環境變數
+        * 【 Linux 】 export LIBP2P_FORCE_PNET=1
         * 【 Windows 】 set LIBP2P_FORCE_PNET=1
       * Reboot
       * ipfs daemon
@@ -271,7 +272,9 @@
       * ipfs config show
       * ipfs config Addresses.API /ip4/0.0.0.0/tcp/5001
       * ipfs config Addresses.Gateway /ip4/0.0.0.0/tcp/8080
-      * export LIBP2P_FORCE_PNET=1
+      * 設定環境變數
+        * 【 Linux 】 export LIBP2P_FORCE_PNET=1
+        * 【 Windows 】 set LIBP2P_FORCE_PNET=1
       * Reboot
       * ipfs daemon
       * ipfs bootstrap add /ip4/Node-1-IP/tcp/4001/ipfs/Node-1-ID
