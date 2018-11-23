@@ -254,6 +254,19 @@
     * [Node-2]   
       * ipfs bootstrap rm --all
       * ipfs daemon &
+      
+    * [Node-1]   
+      * ipfs bootstrap rm --all
+      * ipfs config show
+      * ipfs config Addresses.API /ip4/0.0.0.0/tcp/5001
+      * ipfs config Addresses.Gateway /ip4/0.0.0.0/tcp/8080
+      * export LIBP2P_FORCE_PNET=1
+      * ipfs daemon
+      * ipfs id
+    * [Node-2]  
+    
+      * ipfs bootstrap add /ip4/Node-1-IP/tcp/4001/ipfs/Node-1-ID
+      
   * Check
     * [Node-1] 
       * ipfs swarm peers
