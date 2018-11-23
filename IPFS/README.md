@@ -184,11 +184,14 @@
   *
     * ipfs bootstrap list >save
   *
+    * ipfs bootstrap list
+  *
     * ipfs daemon --enable-pubsub-experiment
   *
     * ipfs pubsub pub "Test" "Hi"
   *
     * ipfs pubsub sub "Test"
+
   
   * https://docs.ipfs.io/reference/api/cli/#ipfs-pubsub
 ---
