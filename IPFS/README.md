@@ -179,6 +179,10 @@
     * ipfs version
   *
     * ipfs config show
+  *
+    * ipfs bootstrap add --default
+  *
+    * ipfs bootstrap list >save
 ---
 
 * Centralized、Decentralized、Distributed
