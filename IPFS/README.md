@@ -279,6 +279,8 @@
       * ipfs daemon
       * ipfs id
       * ipfs swarm peers
+      * echo "test 181122" > mytextfile.txt
+      * ipfs add mytextfile.txt
     * [Node-2]  
       * ipfs bootstrap rm --all
       * ipfs config show
