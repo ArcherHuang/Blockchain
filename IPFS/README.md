@@ -175,6 +175,8 @@
     * ipfs get QmPe4Hp19dDPFDf5TABYethfxd5PtoSEgbNzJuWJcSnT6S
   *
     * ipfs id
+  *
+    * ipfs version
 ---
 
 * Centralized、Decentralized、Distributed
@@ -246,10 +248,10 @@
       * ipfs bootstrap rm --all
       * ipfs bootstrap add /ip4/[Node-1-IP]/tcp/4001/ipfs/[Node-1-ID]
       * export LIBP2P_FORCE_PNET=1
-      * ipfs daemon
+      * ipfs daemon &
     * [Node-2]   
       * ipfs bootstrap rm --all
-      * ipfs daemon
+      * ipfs daemon &
   * Check
     * [Node-1] 
       * ipfs swarm peers
