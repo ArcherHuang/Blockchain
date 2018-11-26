@@ -3,7 +3,7 @@
 const bs58 = require('bs58')
 
 // Encode
-let context = Buffer.from('Hello World')
+let context = Buffer.from('Hello')
 let base58 = bs58.encode(context).toString('hex');
 console.log("computeBase58Encoding : " + base58);
 
