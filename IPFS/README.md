@@ -305,9 +305,17 @@
   * 測試
     * [Node-1] 產生 2g 大檔
       * time sh -c 'dd if=/dev/zero iflag=count_bytes count=2G bs=1M of=large; sync'
+      
+      ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_26___10_41_00-1543200287331.png)
+      
       * ipfs add large
+      
+      ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_26___10_42_33-1543200307088.png)
+      
     * [Node-2]   
       * ipfs get large's Hash
+
+      ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_26___10_43_50-1543200327772.png)
 
   ---
 * [Node-1][Node-2]
