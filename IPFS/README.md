@@ -72,7 +72,7 @@
   * Base58 表格
 ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_26___4_03_03-1543219405525.png)
 
-  * Node.js 程式
+  * Node.js 程式 [Link](https://github.com/ArcherHuang/Blockchain/blob/master/IPFS/Code/compute_Base58_Encoding.js)
 ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_26___2_37_48-1543214417169.png)
 
 ---
