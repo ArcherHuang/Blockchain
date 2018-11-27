@@ -145,6 +145,7 @@
     * ipfs add -r 目錄名稱
   * 取得檔案內容
     * ipfs cat 檔案的 Hash
+    * ipfs cat Hash1 Hash2 Hash3 Hash4 Hash5 > fileName
   * 同步節點
     * ipfs daemon
     * http://127.0.0.1:5001/webui
@@ -197,6 +198,8 @@
     * ipfs pubsub pub "Test" "Hi"
   *
     * ipfs pubsub sub "Test"
+  *
+    * ipfs ls -v Hash
 
   
   * https://docs.ipfs.io/reference/api/cli/#ipfs-pubsub
