@@ -200,7 +200,8 @@
     * ipfs pubsub sub "Test"
   *
     * ipfs ls -v Hash
-
+  *
+    * ipfs object get Hash
   
   * https://docs.ipfs.io/reference/api/cli/#ipfs-pubsub
 ---
