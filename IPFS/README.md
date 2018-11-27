@@ -96,6 +96,7 @@
   ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_21___9_13_23-1542762841787.png)
   
   [merkle](https://people.eecs.berkeley.edu/~raluca/cs261-f15/readings/merkle.pdf)
+  [Ever Wonder How Merkle Trees Work?](https://media.consensys.net/ever-wonder-how-merkle-trees-work-c2f8b7100ed3)
 
 ---
 
