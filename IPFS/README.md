@@ -49,7 +49,7 @@
           * hash function 的輸出結果
             * hello world 的 hash 為 46d44814b9c5af141c3aaab7c05dc5e844ead5f91f12858b021eba45768b4c0e
               * file gets chunked into 256KiB pieces
-              * each chunk goes into a DAG node inside a Unixfs protobuf https://github.com/ipfs/js-ipfs-unixfs
+              * each chunk goes into a DAG node inside a Unixfs protobuf <br> https://github.com/ipfs/js-ipfs-unixfs
               * a dag is created with links to all the chunks.
             * 指令
               * ipfs block get QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o  | sha256sum
