@@ -55,7 +55,7 @@
               * ipfs block get QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o  | sha256sum
         * 計算完的結果為 QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
           * Qm 代表使用 SHA-256 演算法且 32 bytes 長
-       * 程式碼 [Code](https://github.com/ArcherHuang/Blockchain/blob/master/IPFS/Code/compute_IPFS_Address.js)
+       * 程式碼 [【 Code 】](https://github.com/ArcherHuang/Blockchain/blob/master/IPFS/Code/compute_IPFS_Address.js)
        ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_20___2_44_25-1542696310515.png)
        *
          * ipfs ls -v 
