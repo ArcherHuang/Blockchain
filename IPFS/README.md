@@ -84,6 +84,9 @@
 
 * Distributed Hash Table (DHT)
   * 特性
+  
+* Chord protocol
+  * 特性
 
 ---
 
