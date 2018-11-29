@@ -35,8 +35,8 @@
   * Hash 演算法為 SHA-256，並預設使用 Base58 進行編碼
   * 型式
     * 舉例：檔案內容為 【 hello world 】
-      * echo 'hello world' > test-file.txt
-      * ipfs add test-file.txt
+      * 【 指令 】 echo 'hello world' > test-file.txt
+      * 【 指令 】 ipfs add test-file.txt
         * added QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o test-file.txt
     * hash ( 長度為 46 )
       * base58(<hash 演算法><hash 的長度><hash function 的輸出結果>)
