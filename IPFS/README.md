@@ -34,7 +34,7 @@
   * IPFS 的 address 是由 multihash 所組成，其 multihash 共分成 3 個部份，第一部份為所使用的 hash 演算法，第二部份為 hash 的長度，第三部份為 hash function 的輸出結果
   * hash 演算法為 SHA-256，並預設使用 Base58 進行編碼
   * 型式
-    * 舉例：檔案內容為 【 hello world 】
+    * 舉例：將內容為【 hello world 】的【 test-file 】檔案傳送到 IPFS
       * 【 指令 】 echo 'hello world' > test-file.txt
       * 【 指令 】 ipfs add test-file.txt
         * 【 指令執行完顯示的結果 】 
