@@ -57,6 +57,10 @@
           * Qm 代表使用 SHA-256 演算法且 32 bytes 長
        * 程式碼
        ![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_20___2_44_25-1542696310515.png)
+       *
+         * ipfs ls -v 
+       * 
+         * ipfs cat hash1 hash2 hash2 …… , hashn > first.JPG
   * IPNS
     * IPNS 可以讓我節點域名空間建立一個相對應的 IPFS hash
 
