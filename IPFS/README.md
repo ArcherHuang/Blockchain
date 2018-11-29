@@ -38,7 +38,7 @@
       * 【 指令 】 echo 'hello world' > test-file.txt
       * 【 指令 】 ipfs add test-file.txt
         * 【 指令執行完顯示的結果 】 
-           <br> added QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o test-file.txt
+           <br> &nbsp;added QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o test-file.txt
     * hash ( 長度為 46 )
       * base58(<hash 演算法><hash 的長度><hash function 的輸出結果>)
         * base58(122046d44814b9c5af141c3aaab7c05dc5e844ead5f91f12858b021eba45768b4c0e)
