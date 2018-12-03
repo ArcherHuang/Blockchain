@@ -97,6 +97,9 @@
 * Chord protocol
   * 特性
 
+* Proof-of-Work 作為共識算法
+  * 特性
+  
 ---
 
 * Merkle Trees
