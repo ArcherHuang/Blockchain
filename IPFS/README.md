@@ -28,7 +28,8 @@
 * 結構
   * 索引結構是 DHT（ Distributed Hash Table, 分散式雜湊表 ）
   * 資料結構是 Merkle DAG（ Merkle Directed Acyclic Graph, 有向無環圖 ）
-
+  * IPFS 會把文件數據以 unixfs 這種格式保存，可以識為，它是 IPFS 的核心數據结構 MerkleDAG 的一個表現方式
+  
 * IPFS address
   * 每個被加入到 IPFS 系統中的檔案都會得到一個獨一無二的 address，其 address 來自於檔案內容的 hash
   * IPFS 的 address 是由 multihash 所組成，其 multihash 共分成 3 個部份，第一部份為所使用的 hash 演算法，第二部份為 hash 的長度，第三部份為 hash function 的輸出結果
